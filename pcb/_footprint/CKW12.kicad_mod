@@ -1,0 +1,312 @@
+(footprint "CKW12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW21"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4dcbc1f8-d7c5-468b-97b9-4f8eba088f66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CKW12"
+		(at 0 -5.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acc89873-bfd2-45ee-8c60-5ee6426641b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "roBa:SW_MX_EC12"
+		(at 0 3.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "753a2dc9-5055-44e8-94b8-ae1cbd25c4cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "240e1700-ba20-4018-a20a-ab61a9e7bde4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+		(at 0 1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ddb01ac-b5b1-4378-97c4-6fa78edaeabc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -9 -9)
+		(end 9 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "958b229f-9b0e-49b3-a3a6-6da6e97efa06")
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "2460d74b-e46f-40e7-86a3-1cf0b95768d3")
+		(pts
+			(xy -2.475 7.475) (xy 0.025 7.475)
+		)
+		(height 3.525)
+		(gr_text "2.5000 mm"
+			(at -1.225 9.9 0)
+			(layer "F.SilkS")
+			(uuid "2460d74b-e46f-40e7-86a3-1cf0b95768d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "262da622-b4b8-44fd-bf7f-e13ceb3f78e7")
+		(pts
+			(xy 9 -9) (xy 9 9)
+		)
+		(height -5)
+		(gr_text "18.0000 mm"
+			(at 12.9 0 90)
+			(layer "F.SilkS")
+			(uuid "262da622-b4b8-44fd-bf7f-e13ceb3f78e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "75c8d390-2477-47f8-af14-6a2d264d5919")
+		(pts
+			(xy -9 -9) (xy 9 -9)
+		)
+		(height -4)
+		(gr_text "18.0000 mm"
+			(at 0 -14.1 0)
+			(layer "F.SilkS")
+			(uuid "75c8d390-2477-47f8-af14-6a2d264d5919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "ae0c0ba6-097f-4af1-a913-7c170b514a78")
+		(pts
+			(xy 0.025 7.475) (xy 2.525 7.475)
+		)
+		(height -2.475)
+		(gr_text "2.5000 mm"
+			(at 1.275 3.9 0)
+			(layer "F.SilkS")
+			(uuid "ae0c0ba6-097f-4af1-a913-7c170b514a78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "db472b26-ac3c-49a0-ba13-9fed7ff56ec9")
+		(pts
+			(xy -2.475 -7.625) (xy 2.525 -7.625)
+		)
+		(height -2.375)
+		(gr_text "5.0000 mm"
+			(at 0.025 -11.1 0)
+			(layer "F.SilkS")
+			(uuid "db472b26-ac3c-49a0-ba13-9fed7ff56ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "1" thru_hole circle
+		(at 2.525 -7.625)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b822ce52-7700-4c97-84a7-cb283d420dc7")
+	)
+	(pad "2" thru_hole circle
+		(at -2.475 -7.625)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5854f5e4-879e-42e0-9480-ac6b4e501faa")
+	)
+	(pad "A" thru_hole circle
+		(at -2.475 7.475)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4a66059-6a07-47a1-aa4e-e86e18801210")
+	)
+	(pad "B" thru_hole circle
+		(at 2.525 7.475)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "63e6e46b-7034-49d1-8ccd-1312aadff741")
+	)
+	(pad "C" thru_hole circle
+		(at 0.025 7.475)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c97a55f6-5211-41ae-89c2-6e761db970a5")
+	)
+	(model "D:/DIY_keyboard/kicad/my/EVQWGD001_extension/EVQWGD001_extension.step"
+		(hide yes)
+		(offset
+			(xyz 152.5 -101 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(model "D:/DIY_keyboard/kicad/lib/panasonic-evqwgd001-encoder-1.snapshot.1/Encoder.step"
+		(hide yes)
+		(offset
+			(xyz 7 -6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
